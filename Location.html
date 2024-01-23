@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>karasi - Location</title>
+    <!-- Include your existing head content if needed -->
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #1E1E1D; /* Grey background color */
+            color: #333;
+        }
+
+        /* Header styling */
+        .header {
+            background-color: #ffffff;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .nav-logo {
+            color: #007bff;
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+        }
+
+        .nav-list {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-item {
+            margin-right: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #007bff;
+        }
+
+        /* Add some basic styling for the back-to-home link */
+        .back-home-link {
+            display: block;
+            margin: 15px 0;
+            text-align: center;
+            text-decoration: none;
+            color: #007bff; /* Link color */
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        /* Location section styling */
+        .location-container {
+            background-color: #fff;
+            padding: 40px;
+            margin-top: 80px; /* Adjusted margin to accommodate the fixed header */
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .location-title {
+            color: #007bff;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .location-map {
+            margin-bottom: 20px;
+        }
+
+        .location-subtitle {
+            color: #007bff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .location-description {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .location-address-title,
+        .location-hours-title {
+            color: #007bff;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .location-address-text,
+        .location-hours-text {
+            color: #555;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <div class="nav-menu" id="nav-menu">
+            <a href="index.html" class="nav-logo"><img src="./assets/images/logo.png" class="nav-logo-img"></a>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Collection</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link">Company</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link">Store</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link">Contact Us</a></li>
+                <li class="nav-item"><a href="location.html" class="nav-link">Location</a></li> <!-- Add this line -->
+            </ul>
+        </div>
+    </header>
+
+    <!--=============== LOCATION ===============-->
+    <section class="location section" id="location">
+        <div class="location-container container">
+            <!-- Add a link to go back to the home page -->
+            
+            <h1 class="location-title">Location</h1>
+            <div class="location-map">
+                <!-- Replace the placeholder with your Google Maps iframe -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.7014442936215!2d100.84470707508778!3d13.61503758676271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d43d4847d59f3%3A0x34f7f94fa3fae1ba!2zRGVsb25peCBDb25kbyBBYmFjIC0gQmFuZ25hICjguYDguJTguYLguKXguJnguLTguIHguIvguYwg4LiE4Lit4LiZ4LmC4LiUIOC5gOC4reC5geC4muC4hCAtIOC4muC4suC4h-C4meC4sik!5e0!3m2!1sen!2sth!4v1705774391175!5m2!1sen!2sth" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!-- Additional content for the location page -->
+            
+        </div>
+    </section>
+
+    <!-- ... (your existing content) ... -->
+
+    <!-- ... (your existing scripts and footer) ... -->
+</body>
+
+</html>
